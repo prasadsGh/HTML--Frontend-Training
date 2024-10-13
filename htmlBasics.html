@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Basics</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/029/376/511/original/shinchan-cute-face-vector.jpg">
+
+</head>
+<body>
+    <!--
+    -HTML - HyperText Markup Language 
+    - standard markup language for creating web pages
+    - describes the structure of webpage
+    - consist of series of elements
+    - elements tell browers how to display the content 
+    - <!DOCTYPE html> declaration indicates that document is HTML5
+    - <html>  - root of element of HTML page
+    - <head> - contains meta information of HTML page
+    - <title> - title for HTML Page(page tab)
+    - <body> - defines document body and container full of visible content 
+    - <br> defines breakline 
+    -->
+
+
+    <!--
+    html elements can have attributes 
+    attribute provide additional information about elements 
+    attributes are always specified in startin tag 
+    like -> <a href="link"></a>
+
+    usually comes in name="value" pair  
+    -->
+    <p id="1">Link Attribute</p>
+    <a href="https://prasadsgh.github.io"> My Portfolio website </a>
+    <br>
+    <p >Image Attribute- along with width and height</p>
+    <img src="https://vulplex.com/images/featured/Joyous-New-Year-with-Crayon-Shin-chan-HD-Wallpaper-for-Shin-chan-Fans-64fc2c2f67303.jpg" alt="Shinchan Image" width="800px" height="500px" class="center-image" >
+    <p>style attribute</p>
+    <p style="color:red">red color in inline css</p>
+    <p>HTML Heading</p>
+    <h1>first heading size</h1>
+    <h2>second heading size</h2>
+    <h3>third heading size</h3>
+    <h4>fourth heading size</h4>
+    <h5>fifth heading size</h5>
+    <h6>sixth heading size</h6>
+
+    <p>this is how paragraph is written</p>
+    <p>
+        This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+    </p>
+
+    <p>horizontal line 
+    </p>
+    <hr>
+
+    <!--
+    CSS- cascading style sheet
+    -used to format the layout of a webpage
+    -you cna control the color,font, size of text, spacing between elements, how elements are 
+    positioned and laid out.
+    -what background images and or background colors are to be used, different displays for different devices, scree sizes
+
+
+    CSS can be added to HTML page using following three ways 
+    - inline css - using style attribute inside html tag <p style= "color:red"></p>
+    - internal css- inside <style> </style> tag  INSIDE HEAD SECTION 
+    - external css- using <link> element to link external css file INSIDE HEAD SECTION
+
+
+    -externa css is preffered.
+    -SYNTAX to link r== external css file inside html file 
+    -<link rel= "stylesheet" href="link to css file" >
+
+    CSS Padding
+    css padding - space between text and border
+    SYNTAX- p {
+        border: 2px solid powderblue;
+        padding: 30px;
+        }
+
+
+    css margin- decides the space outside the border
+
+    -->
+
+    <p><a href="mailto:prasadpatil2309@gmail.com">Write a MAIL to ME!!!</a></p>
+
+    <p> to use HTML Button as link, you need to add some javascript <br>
+    <button onclick="document.location='default.asp'">Google Navigator</button> </p>
+
+    <!--
+
+    you can also add css to the link , like changing their colors after visited from blue to yellow
+    -->
+
+    <p> we can also add bookmark in the website like this  <br>
+        <a href="#1">Go To TOP!!!</a>
+    </p>
+
+    <p>
+        HTML also allows GIFs
+    </p>
+    <img src="shichan.gif" alt="cute shinchan" style="width:48px;height:48px;">
+
+    <!--
+    Table rows and columns 
+    -->
+    <p>Table rows and columns </p>
+    <table>
+        <tr>
+            <th>header1</th>
+            <th>header2</th>
+            <th>header3</th>
+        </tr>
+        <tr>
+            <td>value11</td>
+            <td>value21</td>
+            <td>value31</td>
+        </tr>
+         <tr>
+            <td>value111</td>
+            <td>value211</td>
+            <td>value311</td>
+        </tr>
+         <tr>
+            <td>value1111</td>
+            <td>value2111</td>
+            <td>value3111</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

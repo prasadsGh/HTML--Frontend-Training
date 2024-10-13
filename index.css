@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(151, 151, 241);
+}
+
+h1{
+    color:rgb(51, 75, 54);
+    text-align: center;
+}
+
+p{
+    background-color: rgb(189, 177, 177);
+    font-family: verdana;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+a{
+    text-align: center;
+}
+image{
+    align-items: center;
+}
+
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right:auto;
+}
